@@ -138,7 +138,7 @@ TCNDDF.updateActiveFont(clickTarget);
 }
 };
 TCNDDF.updateActiveFont = function (target) {
-var getFontFamily = target.title,
+var getFontFamily = [target.title, fallbackfont].join(','),
 dropListItem = dropListing.getElementsByTagName("li");
 
 displayContainer.style.fontFamily = getFontFamily;
