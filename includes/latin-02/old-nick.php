@@ -1,4 +1,5 @@
-<div contenteditable="true" style="width: 600px;">
+<div contenteditable="true">
+
 
 	<p class="sizelabel">16px Text.</p>
 	<p>&nbsp;</p>
@@ -30,5 +31,6 @@
 	<p style="font-size: 16px;">Caution: Mormon virgins nearby. Sacrifice them and PROVE just how barbaric you aren't. Even if this message never actually reaches the internet (I firmly believe that almost anything is possible, but prefer to assign as little credibility to the uncomfortable stuff, unless given credible reason to believe so), it got through to the right folks. If so, wipe us out—I have made a pretty good case where the impossible might inevitably happen, only now the time is the only issue. Proofs of this promise supposedly existed in the White House when I tossed it out. If it turns up not to be there, tell me something I might not have anticipated. Because what I don't know will, in fact kill me—but (yo, Fred) what does not kill me…</p>
 	<p style="font-size: 16px;">Pray I am wrong and I am dead. Pray I am right, and do it the right way—to God, who must necessarily exist in order to pray. Doh!</p>
 	<p style="font-size: 16px;">Rimshot, dammit! Or gunshot. Or freak lightning from nowhere, or plausible probability of something kinda like it. I did ask for it, didn't I? Language people: decipher this before 666 does...</p>
+
 
 </div>	

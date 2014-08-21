@@ -44,6 +44,8 @@
 
 <body spellcheck="false">
 
+
+
 <?php include("includes/top.php"); ?>
 
 <section id="custom">
@@ -53,11 +55,11 @@
 	  <ul class="tabNavigation">
 	    <li><a href="#headlines">Headlines</a></li>
 	    <li><a href="#text">Text</a></li>
-	    <li><a href="#adhesion">adhesion</a></li>
 	    <li><a href="#hamburgefonstiv">hamburgefonstiv</a></li>
 	    <li><a href="#lowercases">a-z</a></li>
 	    <li><a href="#caps">Words</a></li>
 	    <li><a href="#allcaps">Caps</a></li>
+	    <li><a href="#quotes">Quotes</a></li>
 	    <li><a href="#layout">Layout</a></li>
 	    <li><a href="#lettering">Lettering</a></li>
 	    <li><a href="#kern">Kern</a></li>
@@ -69,32 +71,35 @@
 	  <!-- Headlines (Content injected via constants.js) -->
 	  <div id="headlines">
 		<!-- <div style="white-space: nowrap; overflow: hidden; width: 920px;"> -->
-		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>
+		<div></div>
 	  </div>
 	  
 	  <!-- Text (Content injected via Javascript) -->
-	  <div id="text" style="width: 920px;">
+	  <div id="text" style="width: 97%;">
 			<div class="textsettingCol1"></div>
 			<div class="textsettingCol2"></div>
 	  </div>
 
-	  <!-- adhesion (Content injected via constants.js) -->
-	  <div id="adhesion">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>			
-			<p>&nbsp;</p>
-			<p>&nbsp;</p>
-			<div style="width: 920px;">
-				<div class="textsettingCol1"></div>
-				<div class="textsettingCol2"></div>
-			</div>
+	  <!-- quotes (Content injected via constants.js) -->
+	  <div id="quotes">
+	  		<div contenteditable="true">
+
+				<?php $sizes = array(36, 30, 28, 26, 24, 22, 20, 19, 18, 17, 16, 15, 14, 13, 12);?>
+				<?php foreach ($sizes as $i) { ?>
+				<p class="sizelabel"><?php echo $i; ?>px</p>
+				<p style="font-size: <?php echo $i; ?>px;">
+				<span class="quotes-1"></span><br><span class="quotes-2"></span><br><span class="quotes-3"></span><br><span class="quotes-4"></span><br><span class="quotes-5"></span><br><span class="quotes-6"></span><br><span class="quotes-7"></span><br><span class="quotes-8"></span><br><span class="quotes-9"></span><br>
+				<?php } ?>
+
+	  		</div>
 	  </div>
 
 	  <!-- hamburgefonstiv (Content injected via constants.js) -->
 	  <div id="hamburgefonstiv">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;" ></div>				
+	  		<div ></div>				
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<div style="width: 920px;">
+			<div>
 				<div class="textsettingCol1"></div>
 				<div class="textsettingCol2"></div>
 			</div>
@@ -102,10 +107,10 @@
 
 	  <!-- Lowercases a-z (Content injected via constants.js) -->
 	  <div id="lowercases">
-	  		<div style="white-space: nowrap; overflow: hidden; width: 920px;"></div>				
+	  		<div></div>				
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
-			<div style="width: 920px;">
+			<div>
 				<div class="textsettingCol1"></div>
 				<div class="textsettingCol2"></div>
 			</div>
@@ -113,12 +118,12 @@
 
 	  <!-- Caps (Content injected via constants.js) -->
 	  <div id="caps">
-	  		<div style="width: 920px;"></div>				
+	  		<div></div>				
 	  </div>
 
 	  <!-- All Caps (Content injected via constants.js) -->
 	  <div id="allcaps">
-	  		<div style="width: 920px;"></div>				
+	  		<div></div>				
 	  </div>
 
 	  <!-- Layout -->
@@ -138,7 +143,7 @@
 
 	  <!-- Hinting (Content injected via constants.js) -->
 	  <div id="hinting">
-	  		<div style="width: 920px;" contenteditable="true">
+	  		<div contenteditable="true">
 				
 				<p class="sizelabel"><?php echo $_SERVER['HTTP_USER_AGENT'] ?></p><p>&nbsp;</p>
 				
@@ -176,6 +181,7 @@
 	  <!-- Non-Latin -->
 	  <div id="world">
 	  	<?php include("includes/latin/world-scripts.php"); ?>
+
 	  </div>
 
 	</div><!-- end tabs -->
@@ -183,6 +189,7 @@
 </section>
 		
 <!-- Footer -->
+
 <?php include("includes/footer.php"); ?>
 
 </body>

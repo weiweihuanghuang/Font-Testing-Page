@@ -1,4 +1,4 @@
-<div contenteditable="true" style="width: 920px;">
+<div contenteditable="true">
 
 	<p class="sizelabel">Marathi Pangram - 40 points. Provided by Girish Dalvi, Ek Type</p>
 	<p style="font-size: 40px;">श्रावणात म्हणजे वर्षा ऋतुमध्ये प्रातःकाळी चौदा भारदस्त वाघ, पंधरा सिंह, आठ लांडगे, नऊ बैल, छोटुसा पांढरा उंदिर, खारूताई इत्यादी प्राणी, पक्षी एकत्र झऱ्याजवळ फिरत असत. तेथे अज्ञात मगरीस प्रवेश निषिद्ध असे.</p>

@@ -1,9 +1,28 @@
-<div contenteditable="true">
-	<p class="sizelabel">32px Text.</p>
+<head>
+<style>
+/* Font Size Slider */
+#slider { width: 300px; padding: 0 0; margin: 0 0 }
+#value_display { width: 50px; }
+#resize_area { font-size: 32px; }
+#ruder td { line-height: 1; margin: 0; padding: 4px; }
+</style>
+<script>
+window.onload = function() {
+	var resize_area = document.getElementById("resize_area");
+	document.getElementById("slider").onchange = function() {
+		value_display.value = this.value + ' px';
+		resize_area.style.fontSize = this.value + "px";
+	}
+}
+</script>
+</head>
+<input type="range" min="6" max="36" value="32" step="1" id="slider"><br>
+<div contenteditable="true" id="resize_area" style="font-size: 32px">
+	<p class="sizelabel"><input type="text" id="value_display" value="32 px" style="border:0"></p>
 	<table>
 		<tbody>
 			<tr>
-				<td>vertrag</td><td>crainte</td><td>screw</td><td width="100">&nbsp;</td><td>bibel</td><td>malhabile</td><td>modo</td>
+				<td>vertrag</td><td>crainte</td><td>screw</td><td width="30">&nbsp;</td><td>bibel</td><td>malhabile</td><td>modo</td>
 			</tr>
 			<tr>
 				<td>verwalter</td><td>croyant</td><td>science</td><td>&nbsp;</td><td>biegen</td><td>peuple</td><td>punibile</td>

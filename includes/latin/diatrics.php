@@ -1,18 +1,22 @@
-<div style="width: 920px;" contenteditable="true">
+<div contenteditable="true">
 
 	<p class="sizelabel">Diacritics for all the 104 Latin Languages</p>
 	<p style="font-size: 30px;">À Á Â Ã Ä Å Ā Ă Ą Ǻ Ȁ Ȃ Æ Ǽ Ć Ç Ĉ Ċ Č Ď Đ Ð Ḍ Ǳ ǲ Ǆ ǅ È É Ê Ë Ē Ĕ Ė Ę Ẽ Ě Ẹ Ȅ Ȇ Ə Ǵ Ĝ Ğ Ġ Ģ Ĥ Ħ Ḥ Ĭ Ì Í Î Ï İ Ĩ Ī Į Ị Ȉ Ȋ Ĳ Ĵ Ķ Ĺ Ļ Ľ Ŀ Ł Ǉ ǈ Ñ Ń Ņ Ň Ṅ Ŋ Ǌ ǋ Ò Ó Ô Õ Ö Ō Ŏ Ő Ø Ǿ Ǫ Ọ Ȍ Ȏ Œ Þ Ŕ Ŗ Ř Ṛ Ȑ Ȓ Ś Ŝ Š Ș Ş Ṣ Ŧ Ť Ț Ţ Ṭ Ù Ú Û Ü Ũ Ū Ŭ Ů Ű Ų Ụ Ȕ Ȗ Ẁ Ẃ Ẅ Ŵ Ý Ŷ Ÿ Ỳ Ỹ Ź Ż Ž Ẓ</p>
 	<p style="font-size: 30px;">à á â ã ä å ā ă ą ǻ ȁ ȃ æ ǽ ć ç ĉ ċ č ď đ ð ḍ ǳ ǆ è é ê ë ē ĕ ė ę ě ẽ ẹ ȅ ȇ ə ǵ ĝ ğ ġ ģ ĥ ħ ḥ ì í î ï ĩ ī į ĭ ị ȉ ȋ ĳ ĵ ķ ĸ ĺ ļ ľ ŀ ł ǉ ń ŉ ņ ň ñ ṅ ŋ ǌ ò ó ô õ ö ø ō ŏ ő ǿ ǫ ọ ȍ ȏ œ þ ŕ ŗ ř ṛ ȑ ȓ ś ŝ š ș ş ṣ ß ŧ ť ț ţ ṭ ù ú û ü ũ ū ŭ ů ű ų ụ ȕ ȗ µ μ ẁ ẃ ẅ ŵ ý ÿ ŷ ỳ ỹ ź ż ž ẓ</p>
 	
+
 	<p>&nbsp;</p>
 	
+
 	<p class="sizelabel">Diacritics for Vietnamese</p>
 	<p style="font-size: 30px;">À Á Â Ầ Ấ Ẫ Ẩ Ậ Ã Ă Ằ Ắ Ẵ Ẳ Ặ Ả Ạ Đ È É Ê Ề Ế Ễ Ể Ệ Ẽ Ẻ Ẹ Ì Í Ĩ Ỉ Ị Ò Ó Ô Ồ Ố Ỗ Ổ Ộ Õ Ỏ Ơ Ờ Ớ Ỡ Ở Ợ Ọ Ù Ú Ũ Ủ Ư Ừ Ứ Ữ Ử Ự Ụ Ỳ Ý Ỹ Ỷ Ỵ</p>
 	<p style="font-size: 30px;">à á â ầ ấ ẫ ẩ ậ ã ă ằ ắ ẻ ẳ ặ ả ạ đ è é ê ề ế ễ ể ệ ẽ ẻ ẹ ì í ĩ ỉ ị ò ó ô ồ ố ỗ ổ ộ õ ỏ ơ ờ ớ ỡ ở ợ ọ ù ú ũ ủ ư ừ ứ ữ ử ự ụ ỳ ý ỹ ỷ ỵ</p>
 	
+
 	<p>&nbsp;</p>
 	
 	<!-- Short -->
+
 	<p class="sizelabel">Azeri</p>
 	<p style="font-size: 26px;">Zəfər, jaketini də papağını da götür, bu axşam hava çox soyuq olacaq.</p><p>&nbsp;</p>
 	
@@ -101,6 +105,7 @@
 	<p style="font-size: 26px;">Fahiş bluz güvencesi yağdırma projesi çöktü.</p><p>&nbsp;</p>
 	
 	<!-- long -->
+
 	
 	<p class="sizelabel">Albanian</p>
 	<p style="font-size: 16px;">Mbasi njohja e dinjitetit të lindur të të drejtave të barabarta dhe të patjetërsueshme të të gjithë anëtarëve të familjes njerëzore është themeli i lirisë, drejtësisë dhe paqes në botë; mbasi mosrespektimi dhe përbuzja e të drejtave të njeriut ka cuar drejt akteve barbare, të cilat kanë ofenduar ndërgjegjen e njerëzimit, dhe mbasi krijimi i botës në të cilën njerëzit do të gëzojnë lirinë e fjalës, të besimit dhe lirinë nga frika e skamja është proklamuar si dëshira më e lartë e cdo njeriu; mbasi është e nevojshme që të drejtat e njeriut të mbrohen me dispozita juridike, kështu që njeriu të mos jetë i shtrënguar që në pikën e fundit t’i përvishet kryengritjes kundër tiranisë dhe shtypjes; mbasi është e nevojshme që të nxitet zhvillimi i marrëdhënieve miqësore midis kombeve; mbasi popujt e Kombeve të Bashkuara vërtetuan përsëri në Kartë besimin e tyre në të drejtat themelore të njeriut, në dinjitetin dhe vlerën e personit të njeriut dhe barazinë midis burrave dhe grave dhe mbasi vendosën që të nxitin përparimin shoqëror dhe të përmirësojnë nivelin e jetës në liri të plotë; mbasi shtetet anëtare u detyruan që, në bashkëpunim me Kombet</p><p>&nbsp;</p>

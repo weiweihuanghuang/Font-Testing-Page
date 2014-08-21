@@ -1,4 +1,4 @@
-<div contenteditable="true" style="width: 920px;">
+<div contenteditable="true">
 
 <p class="sizelabel">Pairs of half forms followed by full consonants (All Included) - Generated using https://github.com/anexasajoop/devanagari-type-tools</p>
 

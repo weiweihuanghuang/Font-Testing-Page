@@ -3,6 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 <title>Font Testing Page - Custom Version</title>
 <link type="text/css" href="css/styles-v9.css" rel="stylesheet" charset="utf-8" />
 <link type="text/css" href="css/print-v9.css" rel="stylesheet" media="print" charset="utf-8" />
@@ -10,7 +11,6 @@
 <script>localStorage.clear(); </script>
 <script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
-
 <script>
  $(document).ready(function(){
     
@@ -38,6 +38,8 @@
 </head>
 
 <body spellcheck="false">
+
+
 
 <?php include("includes/top.php"); ?>
 
@@ -67,11 +69,13 @@
 
 	  <!-- Briem Basic Proof -->
 	  <div id="briem">
+
 	  	<?php include("includes/latin-02/briem.php"); ?>
 	  </div>
 
 	  <!-- Blake Proof -->
 	  <div id="blake">
+
 	  	<?php include("includes/latin-02/stephenson-blake.php"); ?>
 	  </div>
 
@@ -87,11 +91,13 @@
 
 	  <!-- Old Nick -->
 	  <div id="oldnick">
+
 	  	<?php include("includes/latin-02/old-nick.php"); ?>
 	  </div>
 
 	  <!-- Emil Ruders -->
 	  <div id="ruder">
+
 	  	<?php include("includes/latin-02/ruder.php"); ?>
 	  </div>
 
@@ -122,6 +128,7 @@
 	  
 	  <!-- numeritos -->
 	  <div id="numeritos">
+
 	  	<?php include("includes/latin-02/numeritos.php"); ?>
 	  </div>	  
 
@@ -147,6 +154,7 @@
 
 	  <!-- Diacritics 3 -->
 	  <div id="dia_three">
+
 	  	<?php include("includes/latin-02/dia-03.php"); ?>
 	  </div>
 
@@ -155,6 +163,7 @@
 </section>
 		
 <!-- Footer -->
+
 <?php include("includes/footer.php"); ?>
 
 </body>
