@@ -141,10 +141,10 @@ TCNDDF.updateActiveFont(clickTarget);
 }
 };
 TCNDDF.updateActiveFont = function (target) {
-var getFontFamily = [target.title, fallbackfont].join(','),
+var getFontFamily = target.title,
 dropListItem = dropListing.getElementsByTagName("li");
-
-displayContainer.style.fontFamily = getFontFamily;
+var fallbackfont = document.getElementById("fallbackfont").value;
+displayContainer.style.fontFamily = [getFontFamily, fallbackfont].join(',');
 
 for(var i=0, len = dropListItem.length; i<len; i++) {
 dropListItem[i].className = "";
