@@ -4,22 +4,31 @@
 	<ul id="fonts"></ul>
 </section>
 
+
+
 <!-- OT Features Menu -->
+
 <div id="toggleotfeatures">
+
 	<span id="editions"><a href="index.php">Latin 1</a> | <a href="index-latin-02.php">Latin 2</a> |  <a href="index-cyrillic.php">Cyrillic</a> | <a href="index-devanagari.php">Devanagari</a> | <a href="tools.php">Tools</a></span>
+
 	<a href="javascript://" id="showhide">OpenType Features</a>
+
 </div>
+
 <div id="otfeatures" style="display: none;">
 	<table width="100%">
 		<tr>
 			<td valign="top" width="25%">
 				<input type="checkbox" id="kern" onchange="refreshFeatures()" checked>OpenType Kerning</input><br/>
+
 				<br/>
 				<input type="checkbox" id="liga" checked onchange="refreshFeatures()">Standard Ligatures</input><br/>
 				<input type="checkbox" id="calt" checked onchange="refreshFeatures()">Contextual Alternates</input><br/>
 				<input type="checkbox" id="dlig" onchange="refreshFeatures()">Discretionary Ligatures</input><br/>
 				<input type="checkbox" id="swsh" onchange="refreshFeatures()">Swashes</input><br/>
 				<input type="checkbox" id="salt" onchange="refreshFeatures()">Stylistic Alternates</input><br/>
+
 				<input type="checkbox" id="titl" onchange="refreshFeatures()">Titling</input>
 			</td>
 			<td valign="top" width="25%">
@@ -27,6 +36,7 @@
 				<input type="radio" id="fake-smcp" name="smcp" onchange="refreshFeatures()">Fake SmallCaps</input><br/>
 				<input type="radio" id="smcp" name="smcp" onchange="refreshFeatures()">Real SmallCaps</input><br/>
 				<input type="checkbox" id="c2sc" onchange="refreshFeatures()">Capitals to Small Caps</input><br/>
+
 				<br/>
 				<input type="checkbox" id="case" onchange="refreshFeatures()">Case Sensitive Forms</input>
 			</td>
@@ -41,6 +51,7 @@
 			</td>
 			<td valign="top" width="25%">
 				<input type="checkbox" id="ordn" onchange="refreshFeatures()">Ordinals</input><br/>
+
 				<input type="checkbox" id="frac" name="frac" onchange="refreshFeatures()">Fractions</input><br/>
 				<input type="checkbox" id="zero" onchange="refreshFeatures()">Slashed zero</input><br/>
 				<br/>
@@ -79,11 +90,21 @@
 			</td>
 		</tr>
 		<tr>
+			<td colspan="4" valign="top">
+			   <label for="unicodebmp">Fallback Font</label>
+			   <input type="radio" checked id="unicodebmp" name="fallback" onchange="refreshFeatures()">Unicode BMP Fallback Font</input> &nbsp;
+			   <input type="radio" id="adobeblank" name="fallback" onchange="refreshFeatures()">Adobe Blank</input> &nbsp;
+			   <input id="fallbackfont" type="text" style="display:none" />
+			</td>
+		</tr>
+		<tr>
 			<td colspan="3">
 				<p style="margin: 0 0 6px;">Recommended CSS:</p>
 				<p id="csscode"></p>
 			</td>
 		</tr>			
 	</table>
+
 </div>
+
 <!-- End OT Features Menu -->

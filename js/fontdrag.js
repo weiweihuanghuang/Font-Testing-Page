@@ -123,7 +123,10 @@ fontPreviewFragment.appendChild(domElements[0]);
 
 dropListing.appendChild(fontPreviewFragment);
 TCNDDF.updateActiveFont(domElements[0]);
-displayContainer.style.fontFamily = name;
+/* displayContainer.style.fontFamily = name; */
+debugger;
+var fallbackfont = document.getElementById("fallbackfont").value;
+displayContainer.style.fontFamily = [name, fallbackfont].join(',');
 };
 
 /* Control changing of fonts in drop list  */
@@ -138,7 +141,7 @@ TCNDDF.updateActiveFont(clickTarget);
 }
 };
 TCNDDF.updateActiveFont = function (target) {
-var getFontFamily = target.title,
+var getFontFamily = [target.title, fallbackfont].join(','),
 dropListItem = dropListing.getElementsByTagName("li");
 
 displayContainer.style.fontFamily = getFontFamily;
