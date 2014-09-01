@@ -44,6 +44,8 @@
 
 <body spellcheck="false">
 
+
+
 <?php include("includes/top.php"); ?>
 
 <section id="custom">
@@ -52,72 +54,126 @@
 	  <!-- Navigation (Ideally, this should be outside the "custom" section, so the navigation's font does not change.) -->
 	  <ul class="tabNavigation">
 	    <li><a href="#lettering">Lettering</a></li>
+
 	    <li><a href="#groups">Groups</a></li>
+
 	    <li><a href="#unicode_table">Uni Table</a></li>
+
 	    <li><a href="#unicode_list">Uni List</a></li>
+
 	    <li><a href="#frequency">Frequency</a></li>
+
 	    <li><a href="#syllables">Syllables</a></li>
+
 	    <li><a href="#consonant_pairs">Consonant Pairs</a></li>
+
 	    <li><a href="#conjunct">Conjuncts</a></li>
+
 	    <li><a href="#extremes">Extremes</a></li>	    
+
 	    <li><a href="#sample_one">Sample 1</a></li>
+
+	    <li><a href="#lohit">Lohit</a></li>
 	  </ul>
+
 
 	  <!-- Lettering Sheet -->
 	  <div id="lettering">
+
 	  	<?php include("includes/devanagari/lettering.php"); ?>
 	  </div>
 
+
+
 	  <!-- Anatomy -->
 	  <div id="groups">
+
 	  	<?php include("includes/devanagari/groups.php"); ?>
 	  </div>
 
+
+
 	  <!-- Unicode Table -->
 	  <div id="unicode_table">
+
 	  	<?php include("includes/devanagari/unicode-table.php"); ?>
 	  </div>
 
+
+
 	  <!-- Unicode List -->
 	  <div id="unicode_list">
+
 	  	<?php include("includes/devanagari/unicode-list.php"); ?>
 	  </div>
 
+
+
 	  <!-- Frecuency -->
+
 	  <div id="frequency">
 	  	<?php include("includes/devanagari/frequency.php"); ?>
+
 	  </div>
+
+
 
 	  <!-- Consonants -->
+
 	  <div id="syllables">
 	  	<?php include("includes/devanagari/syllables.php"); ?>
+
 	  </div>
+
 
 	  <!-- Half Forms -->
+
 	  <div id="consonant_pairs">
 	  	<?php include("includes/devanagari/consonant-pairs.php"); ?>
-	  </div>
-	  
-	  <!-- Conjuncts -->
-	  <div id="conjunct">
-	  	<?php include("includes/devanagari/conjunct.php"); ?>
+
 	  </div>
 
+	  
+
+	  <!-- Conjuncts -->
+
+	  <div id="conjunct">
+	  	<?php include("includes/devanagari/conjunct.php"); ?>
+
+	  </div>
+
+
+
 	  <!-- Extremes -->
+
 	  <div id="extremes">
 	  	<?php include("includes/devanagari/extremes.php"); ?>
+
 	  </div>
+
 	  	  	  
+
 	  <!-- Sample 1 -->
+
 	  <div id="sample_one">
 	  	<?php include("includes/devanagari/sample1.php"); ?>
+
 	  </div>
+
+	  <!-- Lohit -->
+
+	  <div id="lohit">
+	  	<?php include("includes/devanagari/lohit.php"); ?>
+
+	  </div>
+
 
 	</div><!-- end tabs -->
 
 </section>
 		
 <!-- Footer -->
+
 <?php include("includes/footer.php"); ?>
 
 </body>
