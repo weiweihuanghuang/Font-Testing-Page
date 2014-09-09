@@ -80,18 +80,26 @@
 			<div class="textsettingCol2"></div>
 	  </div>
 
-	  <!-- quotes (Content injected via constants.js) -->
+	  <!-- quotes text from Vernon Adams http://vernnobile.github.io/webfont-testing/ -->
 	  <div id="quotes">
-	  		<div contenteditable="true">
-
-				<?php $sizes = array(36, 30, 28, 26, 24, 22, 20, 19, 18, 17, 16, 15, 14, 13, 12);?>
-				<?php foreach ($sizes as $i) { ?>
-				<p class="sizelabel"><?php echo $i; ?>px</p>
-				<p style="font-size: <?php echo $i; ?>px;">
-				<span class="quotes-1"></span><br><span class="quotes-2"></span><br><span class="quotes-3"></span><br><span class="quotes-4"></span><br><span class="quotes-5"></span><br><span class="quotes-6"></span><br><span class="quotes-7"></span><br><span class="quotes-8"></span><br><span class="quotes-9"></span><br>
-				<?php } ?>
-
-	  		</div>
+			<div contenteditable="true">
+<?php
+$steps = array(36, 30, 28, 26, 24, 22, 20, 19, 18, 17, 16, 15, 14, 13, 12);
+foreach($steps as $step) {
+	echo '<p class="sizelabel">'.$step.'</p>';
+	echo '<p style="font-size: '.$step.'px;">
+	&lsquo;I feel&rsquo; &lsquo;ah&rsquo; &lsquo;no.&rsquo; &lsquo;no?&rsquo; &lsquo;if&rsquo; &lsquo;cake!&rsquo; &lsquo;&iquest;jeff?&rsquo; &lsquo;&iexcl;si!&rsquo; &lsquo;i&rsquo;ll&rsquo;<br>
+	\'I feel\' \'ah\' \'no.\' \'no?\' \'if\' \'cake!\' \'&iquest;jeff?\' \'&iexcl;si!\' \'i\'ll\'<br>
+	,I feel&rsquo; ,ah&rsquo; ,no.&rsquo; ,no?&rsquo; ,if&rsquo; ,cake!&rsquo; ,&iquest;jeff?&rsquo; ,&iexcl;si!&rsquo; ,i&rsquo;ll&rsquo;<br>
+	&ldquo;I feel&rdquo; &ldquo;ah&rdquo; &ldquo;no.&rdquo; &ldquo;no?&rdquo; &ldquo;if&rdquo; &ldquo;cake!&rdquo; &ldquo;&iquest;jeff?&rdquo; &ldquo;&iexcl;si!&rdquo; &ldquo;i&rsquo;ll&rdquo;<br>
+	"I feel" "ah" "no." "no?" "if" "cake!" "&iquest;jeff?" "&iexcl;si!" "i\'ll"<br>
+	&lsaquo;I feel&rsaquo; &lsaquo;ah&rsaquo; &lsaquo;no.&rsaquo; &lsaquo;no?&rsaquo; &lsaquo;if&rsaquo; &lsaquo;cake!&rsaquo; &lsaquo;&iquest;jeff?&rsaquo; &lsaquo;&iexcl;si!&rsaquo; &lsaquo;i&rsquo;ll&rsaquo;<br>
+	&laquo;I feel&raquo; &laquo;ah&raquo; &laquo;no.&raquo; &laquo;no?&raquo; &laquo;if&raquo; &laquo;cake!&raquo; &laquo;&iquest;jeff?&raquo; &laquo;&iexcl;si!&raquo; &laquo;i&rsquo;ll&raquo;<br>
+	&rsaquo;I feel&lsaquo; &rsaquo;ah&lsaquo; &rsaquo;no.&lsaquo; &rsaquo;no?&lsaquo; &rsaquo;if&lsaquo; &rsaquo;cake!&lsaquo; &rsaquo;&iquest;jeff?&lsaquo; &rsaquo;&iexcl;si!&lsaquo; &rsaquo;i&rsquo;ll&lsaquo;<br>
+	&raquo;I feel&laquo; &raquo;ah&laquo; &raquo;no.&laquo; &raquo;no?&laquo; &raquo;if&laquo; &raquo;cake!&laquo; &raquo;&iquest;jeff?&laquo; &raquo;&iexcl;si!&laquo; &raquo;i&rsquo;ll&laquo;';
+}
+?>
+			</div>
 	  </div>
 
 	  <!-- hamburgefonstiv (Content injected via constants.js) -->

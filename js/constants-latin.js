@@ -85,32 +85,12 @@ var GRUMPIES = {
         ],
         'tab': '#allcaps'
     },
-    
-    'quotes': {
-        'text': "aaa \n aaaaa",
-        'columns': [ // single column
-            {
-                sizes: [72, 60, 48, 36, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12],
-                innerblock: 'div'
-            }
-        ],
-        'tab': '#quotes'
-    },
-
 };
 
 var hintsCaps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var hintsLower = "abcdefghijklmnopqrstuvwxyz.:;,";
 var hintsNumbers= "1234567890 @ &amp;!?#$€%";
-var quotes1= "\‘I feel\’ \‘ah\’ \‘no.\’ \‘no?\’ \‘if\’ \‘cake!\’ \‘¿jeff?\’ \‘¡si!\’ \‘i\’ll\’";
-var quotes2= "\'I feel\' \'ah\' \'no.\' \'no?\' \'if\' \'cake!\' \'¿jeff?\' \'¡si!\' \'i\'ll\'";
-var quotes3= ",I feel\’ ,ah\’ ,no.\’ ,no?\’ ,if\’ ,cake!\’ ,¿jeff?\’ ,¡si!\’ ,i\’ll\’";
-var quotes4= "\“I feel\” \“ah\” \“no.\” \“no?\” \“if\” \“cake!\” \“¿jeff?\” \“¡si!\” \“i\’ll\”";
-var quotes5= "\"I feel\" \"ah\" \"no.\" \"no?\" \"if\" \"cake!\" \"¿jeff?\" \"¡si!\" \"i\'ll\"";
-var quotes6= "‹I feel› ‹ah› ‹no.› ‹no?› ‹if› ‹cake!› ‹¿jeff?› ‹¡si!› ‹i’ll›";
-var quotes7= "«I feel» «ah» «no.» «no?» «if» «cake!» «¿jeff?» «¡si!» «i’ll»";
-var quotes8= "›I feel‹ ›ah‹ ›no.‹ ›no?‹ ›if‹ ›cake!‹ ›¿jeff?‹ ›¡si!‹ ›i’ll‹";
-var quotes9= "»I feel« »ah« »no.« »no?« »if« »cake!« »¿jeff?«";
+
 
 function eventTextLineChange(e) {
     var $this = $(this);
@@ -240,24 +220,4 @@ function prepareAndShowFontLayout() {
     hints_lower.html(hints_lower.html() + hintsLower);
     hints_caps.html(hints_caps.html() + hintsCaps);
     hints_numbers.html(hints_numbers.html() + hintsNumbers);
-
-	var quotes_1 = $('.quotes-1');
-	quotes_1.html(quotes_1.html() + quotes1);
-	var quotes_2 = $('.quotes-2');
-	quotes_2.html(quotes_2.html() + quotes2);
-	var quotes_3 = $('.quotes-3');
-	quotes_3.html(quotes_3.html() + quotes3);
-	var quotes_4 = $('.quotes-4');
-	quotes_4.html(quotes_4.html() + quotes4);
-	var quotes_5 = $('.quotes-5');
-	quotes_5.html(quotes_5.html() + quotes5);
-	var quotes_6 = $('.quotes-6');
-	quotes_6.html(quotes_6.html() + quotes6);
-	var quotes_7 = $('.quotes-7');
-	quotes_7.html(quotes_7.html() + quotes7);
-	var quotes_8 = $('.quotes-8');
-	quotes_8.html(quotes_8.html() + quotes8);
-	var quotes_9 = $('.quotes-9');
-	quotes_9.html(quotes_9.html() + quotes9);
-
 }
