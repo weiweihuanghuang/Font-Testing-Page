@@ -33,6 +33,18 @@
     // OT Features initial Run
     refreshFeatures();
 
+    // Capitalise Text
+    
+	$('input.capitalise').click(function() {
+		if (this.checked) {
+			//alert('Checked');
+			$("p.diacrits").css('text-transform', 'uppercase');
+		} else {
+			//alert('Unchecked');
+			$("p.diacrits").css('text-transform', 'none');
+		}
+	});
+
 });
 </script>
 </head>
@@ -144,17 +156,19 @@
 
 	  <!-- Diacritics One -->
 	  <div id="dia_one">
+		<input type="checkbox" class="capitalise">Capitalise</input>
 		<?php include("includes/latin-02/dia-01.php"); ?>	
 	  </div>
 
 	  <!-- Diacritics 2 -->
 	  <div id="dia_two">
+		<input type="checkbox" class="capitalise">Capitalise</input>
 		<?php include("includes/latin-02/dia-02.php"); ?>	
 	  </div>
 
 	  <!-- Diacritics 3 -->
 	  <div id="dia_three">
-
+		<input type="checkbox" class="capitalise">Capitalise</input>
 	  	<?php include("includes/latin-02/dia-03.php"); ?>
 	  </div>
 
