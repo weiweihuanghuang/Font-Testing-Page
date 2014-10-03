@@ -14,10 +14,9 @@ header { margin: 0; padding: 0; background: #cccccc;}
 header h1 { margin: 0; padding: 40px 20px; }
 
 
-
 /* Font Selection */
 
-#fonts { width: 900px;margin: 0;  padding: 0 10px; top: 0px; left: 20px; position: fixed; background: #F8F8F8; border-bottom: 1px solid #ccc; }
+#fonts { width: 900px;margin: 0;  padding: 0 10px; top: 0px; left: 20px; position: fixed; background: #F8F8F8; border-bottom: 1px solid #ccc; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif}
 #fonts li { display: inline; list-style: none; margin: 0 16px 0 0; padding: 0; cursor: pointer; }
 #fonts li.active { background: #CCCCCC; }
 

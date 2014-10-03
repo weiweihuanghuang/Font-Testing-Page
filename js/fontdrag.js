@@ -63,7 +63,7 @@ droppedFileSize;
 if(droppedFullFileName.match(acceptedFileExtensions)) {
 droppedFileName = droppedFullFileName.replace(/\..+$/,""); // Removes file extension from name
 droppedFileName = droppedFileName.replace(/\W+/g, "-"); // Replace any non alpha numeric characters with -
-droppedFileSize = Math.round(file.size/1024) + "kb";
+droppedFileSize = " " + Math.round(file.size/1024) + "kb";
 
 TCNDDF.processData(file,droppedFileName,droppedFileSize);
 } else {
@@ -115,7 +115,7 @@ domElements[2].appendChild(document.createTextNode(size));
 domElements[1].appendChild(document.createTextNode(name));
 domElements[0].className = "active";
 domElements[0].title = name;
-domElements[0].style.fontFamily = name;
+// domElements[0].style.fontFamily = name;
 domElements[0].appendChild(domElements[1]);
 domElements[0].appendChild(domElements[2]);
 
