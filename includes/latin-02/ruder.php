@@ -1,24 +1,11 @@
 <head>
-<style>
-/* Font Size Slider */
-#slider { width: 300px; padding: 0 0; margin: 0 0 }
-#value_display { width: 50px; }
-#resize_area { font-size: 32px; }
-#ruder td { line-height: 1; margin: 0; padding: 4px; }
-</style>
-<script>
-window.onload = function() {
-	var resize_area = document.getElementById("resize_area");
-	document.getElementById("slider").onchange = function() {
-		value_display.value = this.value + ' px';
-		resize_area.style.fontSize = this.value + "px";
-	}
-}
-</script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css">
+<script src="js/fontsizeslider.js" type="text/javascript" charset="utf-8"></script>
 </head>
-<input type="range" min="6" max="36" value="32" step="1" id="slider"><br>
+<div id="slider" style="width: 200px; display: inline-block; margin: 0 7px 0 0;"></div>
+<input type="text" id="font_size" style="border:0; vertical-align: top; width: 50px">
 <div contenteditable="true" id="resize_area" style="font-size: 32px">
-	<p class="sizelabel"><input type="text" id="value_display" value="32 px" style="border:0"></p>
 	<table>
 		<tbody>
 			<tr>
