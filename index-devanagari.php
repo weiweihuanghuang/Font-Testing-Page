@@ -69,6 +69,8 @@
 
 	    <li><a href="#conjunct">Conjuncts</a></li>
 
+	    <li><a href="#bi_consonantconj">Conjunts 2</a></li>
+
 	    <li><a href="#extremes">Extremes</a></li>	    
 
 	    <li><a href="#sample_one">Sample 1</a></li>
@@ -139,6 +141,15 @@
 
 	  <div id="conjunct">
 	  	<?php include("includes/devanagari/conjunct.php"); ?>
+
+	  </div>
+
+	  
+
+	  <!-- Biconsonantal Conjuncts -->
+
+	  <div id="bi_consonantconj">
+	  	<?php include("includes/devanagari/bi-consonantconj.php"); ?>
 
 	  </div>
 
