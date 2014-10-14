@@ -59,6 +59,7 @@
 	    <li><a href="#lowercases">a-z</a></li>
 	    <li><a href="#caps">Words</a></li>
 	    <li><a href="#allcaps">Caps</a></li>
+	    <li><a href="#space">Spacing</a></li>
 	    <li><a href="#quotes">Quotes</a></li>
 	    <li><a href="#layout">Layout</a></li>
 	    <li><a href="#lettering">Lettering</a></li>
@@ -132,6 +133,11 @@ foreach($steps as $step) {
 	  <!-- All Caps (Content injected via constants.js) -->
 	  <div id="allcaps">
 	  		<div></div>				
+	  </div>
+
+	  <!-- Spacing and Colour -->
+	  <div id="space">
+	  	<?php include("includes/latin/space.php"); ?>						
 	  </div>
 
 	  <!-- Layout -->

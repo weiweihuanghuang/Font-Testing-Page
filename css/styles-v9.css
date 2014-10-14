@@ -16,8 +16,8 @@ header h1 { margin: 0; padding: 40px 20px; }
 
 /* Font Selection */
 
-#fonts { width: 900px; height: 50px; margin: 0;  padding: 0 10px; top: 0px; left: 20px; position: fixed; font: normal 13px/13px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif}
-#fonts li { display: inline; list-style: none; margin: 0 16px 0 0; padding: 0 0 7px; cursor: pointer; background: #CCCCCC; }
+#fonts { width: 900px; height: 50px; margin: 0;  padding: 0 10px; top: 0px; left: 20px; position: fixed; font: normal 13px/24px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif}
+#fonts li { display: inline; list-style: none; margin: 0 8px 0 0; padding: 0 0 7px; cursor: pointer; background: #CCCCCC; }
 #fonts li.active { background: #CCFF99; }
 
 @font-face {
@@ -60,7 +60,7 @@ header h1 { margin: 0; padding: 40px 20px; }
 
 
 /* Navigation */
-ul.tabNavigation { width: 100%; overflow: hidden; list-style: none; margin: 2px 20px; padding: 0; font: normal 15px/15px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
+ul.tabNavigation { width: auto; overflow: hidden; list-style: none; margin: 2px 0 2px 20px; padding: 0; font: normal 15px/15px "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; }
 ul.tabNavigation li { float: left; padding: 0; margin: 0; }
 
 ul.tabNavigation li a { display: block; padding: 7px 5px; margin: 2px 4px 2px 0px; color: #000; text-decoration: none; background-color: #ccc; }
@@ -70,7 +70,7 @@ ul.tabNavigation li a.selected, ul.tabNavigation li a:hover { color: #fff; backg
 ul.tabNavigation li a:focus { outline: 0; }
 
 /* Default Styles for all tabs */
-div.tabs > div { padding: 20px; }
+div.tabs > div { padding: 20px 0 0 20px; }
 
 /* Is this rule still used? If no longer used then it can be removed... */
 div.tabs > div h2 { margin-top: 0; } 
