@@ -5,7 +5,7 @@
 </head>
 <div id="slider" style="width: 200px; display: inline-block; margin: 0 7px 0 0;"></div>
 <input type="text" id="font_size" style="border:0; vertical-align: top; width: 50px">
-<div contenteditable="true" id="resize_area" style="font-size: 32px">
+<div contenteditable="true" id="resize_area" style="font-size: 32px;word-wrap: break-word;">
 <p>HHAHHÆHHBHHCHHDHHÞHHEHHFHHGHHHHIHHJHHKHHLHHMHHNHHOHHŒHHPHHQHHRHHSHHTHHUHHVHHWHHXHHYHHZHH</p>
 <p>OOAOOÆOOBOOCOODOOÞOOEOOFOOGOOHOOIOOJOOKOOLOOMOONOOOOŒOOPOOQOOROOSOOTOOUOOVOOWOOXOOYOOZOO</p>
 <p>nnannænnbnncnndnnðnnennfnngnnhnninnjnnknnlnnmnnnnonnœnnpnnþnnqnnrnnsnnßnntnnunnvnnwnnxnnynnznn</p>
