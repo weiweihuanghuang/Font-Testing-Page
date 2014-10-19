@@ -46,42 +46,30 @@
 	<div class="tabs">
 	  <!-- Navigation -->
 	  <ul class="tabNavigation">
-	    <li><a href="#filter">Filter Text</a></li>
-	    <li><a href="#nnxnn">Spacing Grid</a></li>	    
-	    <li><a href="#color">Color Grid</a></li>
-	    <li><a href="#connection">Connections Grid</a></li>
-	    <li><a href="#specimens">Specimens</a></li>
-	    <li><a href="#pairs">Kern Pairs Generator</a></li>
+	    <li><a href="#wordsfinder">Words finder</a></li>
+	    <li><a href="#calculator">Calculator</a></li>
+	    <li><a href="#template01">Template 01</a></li>
+	    <li><a href="#scale">Scale</a></li>
 	  </ul>
 
-	  <!-- Filter Text from Dictionaries -->
-	  <div id="filter">
-	  	<?php include("includes/tools/filter.php"); ?>
+	  <!-- Words Finder -->
+	  <div id="wordsfinder">
+	  	<?php include("includes/specimen-helper/wordsfinder.php"); ?>
 	  </div>	  
 
-	  <!-- nnxnn Generator -->
-	  <div id="nnxnn">
-	  	<?php include("includes/tools/nnxnn.php"); ?>			
+	  <!-- Calculator -->
+	  <div id="calculator">
+	  	<?php include("includes/specimen-helper/calculator.php"); ?>
 	  </div>
 
-	  <!-- Color Generator -->
-	  <div id="color">
-	  	<?php include("includes/tools/color.php"); ?>			
+	  <!-- Specimen Template 01 -->
+	  <div id="template01">
+	  	<?php include("includes/specimen-helper/template01.php"); ?>
 	  </div>
 
-	  <!-- Connection Tester -->
-	  <div id="connection">
-	  	<?php include("includes/tools/connections.php"); ?>			
-	  </div>
-
-	  <!-- Specimens Generator -->
-	  <div id="specimens">
-	  	<?php include("includes/tools/specimens.php"); ?>				
-	  </div>
-
-	  <!-- Kern Pairs Generator -->
-	  <div id="pairs">
-	  	<?php include("includes/tools/pairs.php"); ?>			
+	  <!-- Scale -->
+	  <div id="scale">
+	  	<?php include("includes/specimen-helper/scale.php"); ?>
 	  </div>
 
 	</div><!-- end tabs -->
