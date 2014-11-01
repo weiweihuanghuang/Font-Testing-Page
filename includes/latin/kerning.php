@@ -1,110 +1,60 @@
 <div contenteditable="true">
 	<p class="sizelabel">22px</p>
 	<p style="font-size: 22px;">
-	AABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZA<br />
-
-	BABBCBDBEBFBGBHBIBJBKBLBMBNBOBPBQBRBSBTBUBVBWBXBYBZB<br />
-
-	CACBCCDCECFCGCHCICJCKCLCMCNCOCPCQCRCSCTCUCVCWCXCYCZC<br />
-
-	DADBDCDDEDFDGDHDIDJDKDLDMDNDODPDQDRDSDTDUDVDWDXDYDZD<br />
-
-	EAEBECEDEEFEGEHEIEJEKELEMENEOEPEQERESETEUEVEWEXEYEZE<br />
-
-	FAFBFCFDFEFFGFHFIFJFKFLFMFNFOFPFQFRFSFTFUFVFWFXFYFZF<br />
-
-	GAGBGCGDGEGFGGHGIGJGKGLGMGNGOGPGQGRGSGTGUGVGWGXGYGZG<br />
-
-	HAHBHCHDHEHFHGHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZH<br />
-
-	IAIBICIDIEIFIGIHIIJIKILIMINIOIPIQIRISITIUIVIWIXIYIZI<br />
-
-	JAJBJCJDJEJFJGJHJIJJKJLJMJNJOJPJRJSJTJUJVJWJXJYJZJ<br />
-
-	KAKBKCKDKEKFKGKHKIKJKKLKMKNKOKPKQKRKSKTKUKVKWKXKYKZK<br />
-
-	LALBLCLDLELFLGLHLILJLKLLMLNLOLPLQLRLSLTLULVLWLXLYLZL<br />
-
-	MAMBMCMDMEMFMGMHMIMJMKMLMMNMOMPMQMRMSMTMUMVMWMXMYMZM<br />
-
-	NANBNCNDNENFNGNHNINJNKNLNMNNONPNQNRNSNTNUNVNWNXNYNZN<br />
-
-	OAOBOCODOEOFOGOHOIOJOKOLOMONOOPOQOROSOTOUOVOWOXOYOZO<br />
-
-	PAPBPCPDPEPFPGPHPIPJPKPLPMPNPOPPQPRPSPTPUPVPWPXPYPZP<br />
-
-	QAQBQCQDQEQFQGQHQIQJQKQLQMQNQOQPQQRQSQTQUQVQWQXQYQZQ<br />
-
-	RARBRCRDRERFRGRHRIRJRKRLRMRNRORPRQRRSRTRURVRWRXRYRZR<br />
-
-	SASBSCSDSESFSGSHSISJSKSLSMSNSOSPSQSRSSTSUSVSWSXSYSZS<br />
-
-	TATBTCTDTETFTGTHTITJTKTLTMTNTOTPTQTRTSTTUTVTWTXTYTZT<br />
-
-	UAUBUCUDUEUFUGUHUIUJUKULUMUNUOUPUQURUSUTUUVUWUXUYUZU<br />
-
-	VAVBVCVDVEVFVGVHVIVJVKVLVMVNVOVPVQVRVSVTVUVVWVXVYVZV<br />
-
-	WAWBWCWDWEWFWGWHWIWJWKWLWMWNWOWPWQWRWSWTWUWVWWXWYWZW<br />
-
-	XAXBXCXDXEXFXGXHXIXJXKXLXMXNXOXPXQXRXSXTXUXVXWXXYXZX<br />
-
-	YAYBYCYDYEYFYGYHYIYJYKYLYMYNYOYPYQYRYSYTYUYVYWYYZY<br />
-
+	AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZ<br />
+	BABBBCBDBEBFBGBHBIBJBKBLBMBNBOBPBQBRBSBTBUBVBWBXBYBZ<br />
+	CACBCCCDCECFCGCHCICJCKCLCMCNCOCPCQCRCSCTCUCVCWCXCYCZ<br />
+	DADBDCDDDEDFDGDHDIDJDKDLDMDNDODPDQDRDSDTDUDVDWDXDYDZ<br />
+	EAEBECEDEEEFEGEHEIEJEKELEMENEOEPEQERESETEUEVEWEXEYEZ<br />
+	FAFBFCFDFEFFFGFHFIFJFKFLFMFNFOFPFQFRFSFTFUFVFWFXFYFZ<br />
+	GAGBGCGDGEGFGGGHGIGJGKGLGMGNGOGPGQGRGSGTGUGVGWGXGYGZ<br />
+	HAHBHCHDHEHFHGHHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZ<br />
+	IAIBICIDIEIFIGIHIIIJIKILIMINIOIPIQIRISITIUIVIWIXIYIZ<br />
+	JAJBJCJDJEJFJGJHJIJJJKJLJMJNJOJPJQJRJSJTJUJVJWJXJYJZ<br />
+	KAKBKCKDKEKFKGKHKIKJKKKLKMKNKOKPKQKRKSKTKUKVKWKXKYKZ<br />
+	LALBLCLDLELFLGLHLILJLKLLLMLNLOLPLQLRLSLTLULVLWLXLYLZ<br />
+	MAMBMCMDMEMFMGMHMIMJMKMLMMMNMOMPMQMRMSMTMUMVMWMXMYMZ<br />
+	NANBNCNDNENFNGNHNINJNKNLNMNNNONPNQNRNSNTNUNVNWNXNYNZ<br />
+	OAOBOCODOEOFOGOHOIOJOKOLOMONOOOPOQOROSOTOUOVOWOXOYOZ<br />
+	PAPBPCPDPEPFPGPHPIPJPKPLPMPNPOPPPQPRPSPTPUPVPWPXPYPZ<br />
+	QAQBQCQDQEQFQGQHQIQJQKQLQMQNQOQPQQQRQSQTQUQVQWQXQYQZ<br />
+	RARBRCRDRERFRGRHRIRJRKRLRMRNRORPRQRRRSRTRURVRWRXRYRZ<br />
+	SASBSCSDSESFSGSHSISJSKSLSMSNSOSPSQSRSSSTSUSVSWSXSYSZ<br />
+	TATBTCTDTETFTGTHTITJTKTLTMTNTOTPTQTRTSTTTUTVTWTXTYTZ<br />
+	UAUBUCUDUEUFUGUHUIUJUKULUMUNUOUPUQURUSUTUUUVUWUXUYUZ<br />
+	VAVBVCVDVEVFVGVHVIVJVKVLVMVNVOVPVQVRVSVTVUVVVWVXVYVZ<br />
+	WAWBWCWDWEWFWGWHWIWJWKWLWMWNWOWPWQWRWSWTWUWVWWWXWYWZ<br />
+	XAXBXCXDXEXFXGXHXIXJXKXLXMXNXOXPXQXRXSXTXUXVXWXXXYXZ<br />
+	YAYBYCYDYEYFYGYHYIYJYKYLYMYNYOYPYQYRYSYTYUYVYWYXYYYZ<br />
 	ZAZBZCZDZEZFZGZHZIZJZKZLZMZNZOZPZQZRZSZTZUZVZWZXZYZZ<br />
-
+	
 	<br />
 
-	aabacadaeafagahaiajakalamanaoapaqarasatauavawaxayaza<br />
-
-	babbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybzb<br />
-
-	cacbccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcyczc<br />
-
-	dadbdcddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydzd<br />
-
-	eaebecedeefegeheiejekelemeneoepeqereseteuevewexeyeze<br />
-
-	fafbfcfdfeffgfhfifjfkflfmfnfofpfqfrfsftfufvfwfxfyfzf<br />
-
-	gagbgcgdgegfgghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygzg<br />
-
-	hahbhchdhehfhghhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhzh<br />
-
-	iaibicidieifigihiijikiliminioipiqirisitiuiviwixiyizi<br />
-
-	jajbjcjdjejfjgjhjijjkjljmjnjojpjrjsjtjujvjwjxjyjzj<br />
-
-	kakbkckdkekfkgkhkikjkklkmknkokpkqkrksktkukvkwkxkykzk<br />
-
-	lalblcldlelflglhliljlkllmlnlolplqlrlsltlulvlwlxlylzl<br />
-
-	mambmcmdmemfmgmhmimjmkmlmmnmompmqmrmsmtmumvmwmxmymzm<br />
-
-	nanbncndnenfngnhninjnknlnmnnonpnqnrnsntnunvnwnxnynzn<br />
-
-	oaobocodoeofogohoiojokolomonoopoqorosotouovowoxoyozo<br />
-
-	papbpcpdpepfpgphpipjpkplpmpnpoppqprpsptpupvpwpxpypzp<br />
-
-	qaqbqcqdqeqfqgqhqiqjqkqlqmqnqoqpqqrqsqtquqvqwqxqyqzq<br />
-
-	rarbrcrdrerfrgrhrirjrkrlrmrnrorprqrrsrtrurvrwrxryrzr<br />
-
-	sasbscsdsesfsgshsisjskslsmsnsospsqsrsstsusvswsxsyszs<br />
-
-	tatbtctdtetftgthtitjtktltmtntotptqtrtsttutvtwtxtytzt<br />
-
-	uaubucudueufuguhuiujukulumunuoupuqurusutuuvuwuxuyuzu<br />
-
-	vavbvcvdvevfvgvhvivjvkvlvmvnvovpvqvrvsvtvuvvwvxvyvzv<br />
-
-	wawbwcwdwewfwgwhwiwjwkwlwmwnwowpwqwrwswtwuwvwwxwywzw<br />
-
-	xaxbxcxdxexfxgxhxixjxkxlxmxnxoxpxqxrxsxtxuxvxwxxyxzx<br />
-
-	yaybycydyeyfygyhyiyjykylymynyoypyqyrysytyuyvywyyzy<br />
-
+	aaabacadaeafagahaiajakalamanaoapaqarasatauavawaxayaz<br />
+	babbbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybz<br />
+	cacbcccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcycz<br />
+	dadbdcdddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydz<br />
+	eaebecedeeefegeheiejekelemeneoepeqereseteuevewexeyez<br />
+	fafbfcfdfefffgfhfifjfkflfmfnfofpfqfrfsftfufvfwfxfyfz<br />
+	gagbgcgdgegfggghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygz<br />
+	hahbhchdhehfhghhhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhz<br />
+	iaibicidieifigihiiijikiliminioipiqirisitiuiviwixiyiz<br />
+	jajbjcjdjejfjgjhjijjjkjljmjnjojpjqjrjsjtjujvjwjxjyjz<br />
+	kakbkckdkekfkgkhkikjkkklkmknkokpkqkrksktkukvkwkxkykz<br />
+	lalblcldlelflglhliljlklllmlnlolplqlrlsltlulvlwlxlylz<br />
+	mambmcmdmemfmgmhmimjmkmlmmmnmompmqmrmsmtmumvmwmxmymz<br />
+	nanbncndnenfngnhninjnknlnmnnnonpnqnrnsntnunvnwnxnynz<br />
+	oaobocodoeofogohoiojokolomonooopoqorosotouovowoxoyoz<br />
+	papbpcpdpepfpgphpipjpkplpmpnpopppqprpsptpupvpwpxpypz<br />
+	qaqbqcqdqeqfqgqhqiqjqkqlqmqnqoqpqqqrqsqtquqvqwqxqyqz<br />
+	rarbrcrdrerfrgrhrirjrkrlrmrnrorprqrrrsrtrurvrwrxryrz<br />
+	sasbscsdsesfsgshsisjskslsmsnsospsqsrssstsusvswsxsysz<br />
+	tatbtctdtetftgthtitjtktltmtntotptqtrtstttutvtwtxtytz<br />
+	uaubucudueufuguhuiujukulumunuoupuqurusutuuuvuwuxuyuz<br />
+	vavbvcvdvevfvgvhvivjvkvlvmvnvovpvqvrvsvtvuvvvwvxvyvz<br />
+	wawbwcwdwewfwgwhwiwjwkwlwmwnwowpwqwrwswtwuwvwwwxwywz<br />
+	xaxbxcxdxexfxgxhxixjxkxlxmxnxoxpxqxrxsxtxuxvxwxxxyxz<br />
+	yaybycydyeyfygyhyiyjykylymynyoypyqyrysytyuyvywyxyyyz<br />
 	zazbzczdzezfzgzhzizjzkzlzmznzozpzqzrzsztzuzvzwzxzyzz<br />
 
 	<br />
@@ -206,8 +156,16 @@
 	12¢ 23¢ 34¢ 45¢ 56¢ 67¢ 78¢ 89¢ 90¢ 01¢<br />
 
 	<br />
-	(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m) (n) (o) (p) (q) (r) (s) (t) (u) (v) (w) (x) (y) (z) (A) (B) (C) (D) (E) (F) (G) (H) (I) (J) (K) (L) (M) (N) (O) (P) (Q) (R) (S) (T) (U) (V) (W) (X) (Y) (Z) {a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} {A} {B} {C} {D} {E} {F} {G} {H} {I} {J} {K} {L} {M} {N} {O} {P} {Q} {R} {S} {T} {U} {V} {W} {X} {Y} {Z} [a] [b] [c] [d] [e] [f] [g] [h] [i] [j] [k] [l] [m] [n] [o] [p] [q] [r] [s] [t] [u] [v] [w] [x] [y] [z] [A] [B] [C] [D] [E] [F] [G] [H] [I] [J] [K] [L] [M] [N] [O] [P] [Q] [R] [S] [T] [U] [V] [W] [X] [Y] [Z]<br />
+
+	(a) (b) (c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m) (n) (o) (p) (q) (r) (s) (t) (u) (v) (w) (x) (y) (z) <br /> 
+	{a} {b} {c} {d} {e} {f} {g} {h} {i} {j} {k} {l} {m} {n} {o} {p} {q} {r} {s} {t} {u} {v} {w} {x} {y} {z} <br />
+	[a] [b] [c] [d] [e] [f] [g] [h] [i] [j] [k] [l] [m] [n] [o] [p] [q] [r] [s] [t] [u] [v] [w] [x] [y] [z] <br />
+	(A) (B) (C) (D) (E) (F) (G) (H) (I) (J) (K) (L) (M) (N) (O) (P) (Q) (R) (S) (T) (U) (V) (W) (X) (Y) (Z) <br />
+	{A} {B} {C} {D} {E} {F} {G} {H} {I} {J} {K} {L} {M} {N} {O} {P} {Q} {R} {S} {T} {U} {V} {W} {X} {Y} {Z} <br />
+	[A] [B] [C] [D] [E] [F] [G] [H] [I] [J] [K] [L] [M] [N] [O] [P] [Q] [R] [S] [T] [U] [V] [W] [X] [Y] [Z]<br />
+
 	<br />
+
 	WOW.” ,’ ,” .’ ?” ?’ !” !’<br /><br />
 	ď! ď, ď. ď; ď? ďa ďh ďk ďl ďm ďo ďt ďu ďá ďž<br />
 	Ľ. Ľa Ľu Ľú<br />
